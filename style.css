@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+}
+
+input {
+    height: 50px;
+    width: 450px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white
+}
+
+button {
+    height: 55px;
+    width: 55px;
+    background-color: black;
+    color: white;
+}
+
+.contentDiv {
+    height: 700px;
+    width: 520px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.deleteButton {
+    height: 30px;
+    width: 42px;
+    background-color: red;
+    display: inline-block;
+    color: white;
+    margin-left: 10px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.finishButton {
+    height: 30px;
+    width: 70px;
+    background-color: green;
+    display: inline-block;
+    color: white;
+    margin-left: 10px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.deneme {
+    text-decoration: line-through;
+}
